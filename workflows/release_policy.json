@@ -1,0 +1,8 @@
+{
+  "deployment_rules": {
+    "high_risk_threshold": 75,
+    "require_simulation": true,
+    "block_on_failed_tests": true,
+    "allow_canary_release": true
+  }
+}
