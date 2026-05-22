@@ -1,0 +1,18 @@
+{
+  "workflow_name": "customer_support_resolution",
+  "agents": [
+    "router_agent",
+    "memory_agent",
+    "support_agent",
+    "escalation_agent"
+  ],
+  "tool_dependencies": {
+    "search_tool": [
+      "router_agent",
+      "memory_agent"
+    ],
+    "ticketing_tool": [
+      "support_agent"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "search_tool": {
+      "version": "2.1",
+      "owner": "core-platform",
+      "criticality": "high"
+    },
+    "knowledge_base_tool": {
+      "version": "1.4",
+      "owner": "retrieval-team",
+      "criticality": "medium"
+    },
+    "ticketing_tool": {
+      "version": "3.0",
+      "owner": "support-platform",
+      "criticality": "high"
+    }
+  }
+}
